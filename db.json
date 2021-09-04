@@ -1,0 +1,232 @@
+{
+  "product": [
+    {
+      "id": 4,
+      "name": "Cement",
+      "color": "green",
+      "size": "50",
+      "company": "Mepal Leaf",
+      "quantity": 91,
+      "price": "659",
+      "image": ""
+    },
+    {
+      "id": 5,
+      "name": "Flesh",
+      "color": "white",
+      "size": "34",
+      "company": "5-Star",
+      "quantity": 86,
+      "price": "2500",
+      "image": null
+    },
+    {
+      "id": 6,
+      "name": "Paint",
+      "color": "red",
+      "size": "4kg",
+      "company": "Happilike",
+      "quantity": 19,
+      "price": "3000",
+      "image": null
+    },
+    {
+      "id": 7,
+      "name": "book",
+      "color": "red",
+      "size": "2 kg",
+      "company": "scholar",
+      "quantity": 29,
+      "price": "222",
+      "image": null
+    }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerName": "as",
+      "mobileNo": "2323",
+      "address": "sdd",
+      "productId": [
+        1,
+        4
+      ],
+      "noOfItems": [
+        1,
+        2
+      ],
+      "totalBill": 2418,
+      "time": "3/6/2021, 12:03:28 AM"
+    },
+    {
+      "id": 2,
+      "customerName": "sddsdf",
+      "mobileNo": "2222",
+      "address": "sdd",
+      "productId": [
+        2
+      ],
+      "noOfItems": [
+        1
+      ],
+      "totalBill": 8009,
+      "time": "3/6/2021, 12:04:47 AM"
+    },
+    {
+      "id": 3,
+      "customerName": "awa",
+      "mobileNo": "234234",
+      "address": "sdd",
+      "productId": [
+        1,
+        4
+      ],
+      "noOfItems": [
+        1,
+        2
+      ],
+      "totalBill": 2418,
+      "time": "3/6/2021, 12:07:39 AM"
+    },
+    {
+      "id": 4,
+      "customerName": "kokoj",
+      "mobileNo": "434345",
+      "address": "wwww",
+      "productId": [
+        1,
+        4
+      ],
+      "noOfItems": [
+        1,
+        1
+      ],
+      "totalBill": 1759,
+      "time": "3/6/2021, 12:11:15 AM"
+    },
+    {
+      "id": 5,
+      "customerName": "ppppppppp",
+      "mobileNo": "333333333",
+      "address": "wwwwww",
+      "productId": [
+        2
+      ],
+      "noOfItems": [
+        1
+      ],
+      "totalBill": 8009,
+      "time": "3/6/2021, 12:13:21 AM"
+    },
+    {
+      "id": 6,
+      "customerName": "qqqqqqqqq",
+      "mobileNo": "88888888888",
+      "address": "wwwwww",
+      "productId": [
+        1,
+        4
+      ],
+      "noOfItems": [
+        1,
+        1
+      ],
+      "totalBill": 1759,
+      "time": "3/6/2021, 12:15:10 AM"
+    },
+    {
+      "id": 7,
+      "customerName": "Adeel",
+      "mobileNo": "35465766787",
+      "address": "yut6fyuiji",
+      "productId": [
+        4
+      ],
+      "noOfItems": [
+        5
+      ],
+      "totalBill": 3295,
+      "time": "3/8/2021, 10:29:15 AM"
+    },
+    {
+      "id": 8,
+      "customerName": "ghty",
+      "mobileNo": "6767",
+      "address": "uui",
+      "productId": [
+        4,
+        1
+      ],
+      "noOfItems": [
+        1,
+        1
+      ],
+      "totalBill": 1759,
+      "time": "3/8/2021, 10:36:01 AM"
+    },
+    {
+      "id": 9,
+      "customerName": "tftiuuo",
+      "mobileNo": "757456",
+      "address": "tdtrdt",
+      "productId": [
+        4
+      ],
+      "noOfItems": [
+        1
+      ],
+      "totalBill": 659,
+      "time": "3/8/2021, 10:42:40 AM"
+    },
+    {
+      "id": 10,
+      "customerName": "gfyt",
+      "mobileNo": "34554",
+      "address": "esrttrdt",
+      "productId": [
+        1,
+        4
+      ],
+      "noOfItems": [
+        2,
+        1
+      ],
+      "totalBill": 2859,
+      "time": "3/8/2021, 10:46:19 AM"
+    },
+    {
+      "id": 11,
+      "customerName": "Bahzad",
+      "mobileNo": "066543578985457",
+      "address": "aslkdfjweiofjasdklnfios",
+      "productId": [
+        4,
+        5,
+        6
+      ],
+      "noOfItems": [
+        2,
+        1,
+        1
+      ],
+      "totalBill": 6818,
+      "time": "5/24/2021, 10:00:16 PM"
+    },
+    {
+      "id": 12,
+      "customerName": "Talha",
+      "mobileNo": "030330033",
+      "address": "sdkfjasdiofholwesdnk",
+      "productId": [
+        5,
+        7
+      ],
+      "noOfItems": [
+        2,
+        9
+      ],
+      "totalBill": 6998,
+      "time": "6/2/2021, 8:19:05 AM"
+    }
+  ]
+}

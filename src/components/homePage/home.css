@@ -1,0 +1,12 @@
+body {
+  background: url(../../images/login-bg.jpg) no-repeat;
+  background-size: cover;
+}
+
+.style {
+  max-width: 4rem;
+}
+
+.topMargin {
+  margin-top: 1cm;
+}

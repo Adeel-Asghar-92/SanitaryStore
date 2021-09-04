@@ -1,0 +1,10 @@
+export const Load_Product_Type = "Load_Product_Type ";
+export const Create_Product_Type = "Create_Product_Type";
+export const Edit_Product_Type = "Product_Edit_Type";
+export const Info_Product_Type = "Product_Info_Type";
+export const Delete_Product_Type = "Product_Delete_Type";
+export const Sell_Product_Type = "Sell_Product_Type";
+export const Bill_Type = "Bill_Type";
+export const History_Type = "History_Type";
+export const View_History_Type = "View_History_Type";
+export const Delete_History_Type = "Delete_History_Type";
