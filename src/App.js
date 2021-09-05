@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     setdate(new Date().toLocaleString());
   }, []);
-  return date < predate ? (
+  return date > predate ? (
     <div className="">
       {" "}
       <NavBar />

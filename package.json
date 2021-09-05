@@ -33,7 +33,7 @@
   "scripts": {
     "start": "react-scripts start",
     "server": "json-server --watch db.json --port 3003",
-    "shop": "concurrently \"npm run react-scripts\" \"npm run json-server\"",
+    "shop": "concurrently \"npm run start\" \"npm run server\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
