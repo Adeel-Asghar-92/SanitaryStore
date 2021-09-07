@@ -2,7 +2,7 @@ import axios from "axios";
 import { useState } from "react";
 
 export const GetProduct = async () => {
-  const products = await axios.get("http://localhost:3003/product");
+  const products = await axios.get("http://52.187.114.144:3003/product");
   return products;
 };
 
@@ -39,22 +39,22 @@ export const saveChanges = async (product) => {
   debugger;
   product.id
     ? await axios
-        .put(`http://localhost:3003/product/${product.id}`, product)
+        .put(`http://52.187.114.144:3003/product/${product.id}`, product)
         .then((res) => {
           console.log(res);
         })
-    : await axios.post("http://localhost:3003/product", product);
+    : await axios.post("http://52.187.114.144:3003/product", product);
   return product;
 };
 
 export const deleteProductById = async (Id) => {
   debugger;
-  const id = await axios.delete(`http://localhost:3003/product/${Id}`);
+  const id = await axios.delete(`http://52.187.114.144:3003/product/${Id}`);
   return id;
 };
 
 export const getProductById = async (ID) => {
-  const product = await axios.get(`http://localhost:3003/product/${ID}`);
+  const product = await axios.get(`http://52.187.114.144:3003/product/${ID}`);
   return product;
 };
 
@@ -72,7 +72,7 @@ export const customerValidation = (customer) => {
 
 export const saveOrder = async (bill) => {
   debugger;
-  await axios.post("http://localhost:3003/orders", bill);
+  await axios.post("http://52.187.114.144:3003/orders", bill);
   return bill;
 };
 
@@ -80,19 +80,19 @@ export const updatedAllItems = async (items) => {
   debugger;
   if (items.length > 0) {
     await items.forEach((i) => {
-      axios.put(`http://localhost:3003/product/${i.id}`, i);
+      axios.put(`http://52.187.114.144:3003/product/${i.id}`, i);
     });
   }
 };
 
 export const getHistory = async () => {
   debugger;
-  const history = await axios.get(`http://localhost:3003/orders`);
+  const history = await axios.get(`http://52.187.114.144:3003/orders`);
   return history;
 };
 
 export const deleteHistoryById = async (Id) => {
   debugger;
-  const id = await axios.delete(`http://localhost:3003/orders/${Id}`);
+  const id = await axios.delete(`http://52.187.114.144:3003/orders/${Id}`);
   return id;
 };
