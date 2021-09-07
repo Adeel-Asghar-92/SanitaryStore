@@ -31,7 +31,7 @@
     "web-vitals": "^1.1.0"
   },
   "scripts": {
-    "start": "PORT=3003 react-scripts start ",
+    "start": "set PORT=3003 && react-scripts start ",
     "server": "json-server --watch db.json --port 3000",
     "shop": "concurrently \"npm run start\" \"npm run server\"",
     "build": "react-scripts build",
